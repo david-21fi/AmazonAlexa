@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def barplot(data = 'data',column = 'column'):
+def barplot(data = 'data',column = 'column',rotation=False):
     fig, ax = plt.subplots(figsize=(8,6))
     counts = data[column].value_counts().sort_values()
     sns.barplot(x=counts.index,y=counts.values,)
@@ -18,5 +18,7 @@ def barplot(data = 'data',column = 'column'):
                     fontsize=12)
     plt.title(rf'{column}',loc='left',)
     plt.ylabel('count')
+    if rotation:
+        plt.xticks(rotation=45,ha='right')
     plt.show()
 
