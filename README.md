@@ -34,7 +34,7 @@ Antes de entrenar el modelo, realizamos un **análisis exploratorio de los datos
 - **Ejemplo de comentarios positivos y negativos** para identificar patrones clave  
 
 ✍️ _Puedes ver el análisis exploratorio completo en el siguiente Notebook:_  
-👉 **[Análisis Exploratorio](./notebooks/analisis_exploratorio.ipynb)**  
+👉 **[Análisis Exploratorio](./Notebooks/analisis_exploratorio.ipynb)**  
 
 ---
 
